@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/items/:id",
+      "destination": "/api/items/[itemId]"
+    },
+    {
+      "source": "/api/claims/:id",
+      "destination": "/api/claims/[claimId]"
+    }
+  ]
+}
