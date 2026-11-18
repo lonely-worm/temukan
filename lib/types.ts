@@ -13,7 +13,7 @@ export type Item = {
   reporter: string;
   initials: string;
   color: string;
-  photoUrl?: string;
+  photoUrl?: string | undefined;
 };
 
 export type Claim = {

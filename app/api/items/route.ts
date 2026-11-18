@@ -26,7 +26,7 @@ function toItem(row: ItemRow, kind: ItemKind, categoryName?: string): Item {
     reporter: 'Komunitas',
     initials: 'KM',
     color: kind === 'lost' ? '#e9a23b' : '#69a9a4',
-    photoUrl: row.photo_path,
+    photoUrl: row.photo_path ?? undefined,
   };
 }
 
