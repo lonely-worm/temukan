@@ -1,0 +1,425 @@
+{"method":"browser_snapshot","warnings":["1 older browser snapshot were evicted by the bounded snapshot registry."]}
+Browser tab: tab_9e39897d-0092-46f2-bb2f-87630c18bb1e, Title: "Vercel", URL: "https://vercel.com/lonely10".
+837 AXWebArea Vercel
+  838 element Breadcrumb, truncated: text
+    839 link Skip to content
+    842 main
+      843 generic
+        844 generic
+          845 sectionheader
+            846 link
+            847 status Loading teams
+            848 button Find F
+              849 image
+              850 text Find
+              851 text F
+          853 navigation
+            855 generic
+              856 link Projects
+                857 image
+              859 link Deployments
+                860 image
+              862 link CI
+                863 image
+              865 link Logs
+                866 image
+                868 image
+              869 link Traces
+                870 image
+                872 image
+              873 link Analytics
+                874 image
+              876 link Speed Insights
+                877 image
+              879 link Observability
+                880 image
+                882 image
+              883 link Firewall
+                884 image
+                886 image
+              887 link CDN
+                888 image
+              890 separator
+              891 link Environment Variables
+                892 image
+              894 link Domains
+                895 image
+              897 link Connect
+                898 image
+              900 link Integrations
+                901 image
+              903 link Storage
+                904 image
+              906 link Flags
+                907 image
+              909 link Agent
+                910 image
+                912 image
+              913 link Vulnerabilities
+                914 image
+              916 link AI Gateway
+                917 image
+                919 image
+              920 link Sandboxes
+                921 image
+                923 image
+              924 link Workflows
+                925 image
+              927 link Images
+                928 image
+              930 link Daemons
+                931 image
+                933 image
+              934 separator
+              935 link Usage
+                936 image
+              938 link Support
+                939 image
+              941 link Settings
+                942 image
+                944 image
+          945 generic
+            946 button Avatar for lonely-worm lonely-worm, disabled, Secondary actions: Expand
+              947 image Avatar for lonely-worm
+                948 image Avatar for lonely-worm, Description: Avatar for lonely-worm
+              949 text lonely-worm
+              950 image
+            951 image
+        952 button Toggle sidebar
+      953 generic
+        954 button Open project switcher
+          955 text All Projects
+        956 navigation Breadcrumb
+          958 text Overview
+      960 generic
+        961 generic
+        962 generic
+          963 search text field Search
+          964 element
+          965 element Press slash to focus search /
+          966 button Filter and Sort Projects, Secondary actions: Expand
+            967 image
+          968 LabelText grid
+            969 radio button grid, checked
+            970 element grid
+              971 image
+          973 LabelText list
+            974 radio button list, unchecked
+            975 element list
+              976 image
+          978 generic
+            979 button Onboard Your Agent
+            981 generic
+            982 button Dismiss agent onboarding prompt
+              983 image
+          985 generic
+            986 generic
+              987 link Usage
+              989 generic
+                990 link Last 30 days
+                  991 image
+                993 button Upgrade
+                996 list
+                  997 list item
+                    998 link 0.496 CDN Requests 5K/ 1M 10M
+                      999 progressbar, Value: 0.4959999918937683
+                      1000 text CDN Requests
+                      1002 image
+                      1003 text 5K
+                      1004 text /
+                      1005 text  
+                      1006 text 1M
+                      1007 text 10M
+                  1008 list item
+                    1009 link 0.131458 Fluid Active CPU 19s/ 4h 16h
+                      1010 progressbar, Value: 0.1314583271741867
+                      1011 text Fluid Active CPU
+                      1013 image
+                      1014 text 19s
+                      1015 text /
+                      1016 text  
+                      1017 text 4h
+                      1018 text 16h
+                  1019 list item
+                    1020 link 0.104157 Fast Data Transfer 104.16 MB/ 100 GB 1 TB
+                      1021 progressbar, Value: 0.10415709763765335
+                      1022 text Fast Data Transfer
+                      1024 image
+                      1025 text 104.16 MB
+                      1026 text /
+                      1027 text  
+                      1028 text 100 GB
+                      1029 text 1 TB
+                  1030 list item
+                    1031 link 0.1 Image Optimization - Transformations 5/ 5K 10K
+                      1032 progressbar, Value: 0.10000000149011612
+                      1033 text Image Optimization - Transformations
+                      1035 image
+                      1036 text 5
+                      1037 text /
+                      1038 text  
+                      1039 text 5K
+                      1040 text 10K
+                  1041 list item
+                    1042 link 0.0693 ISR Reads 693/ 1M 10M
+                      1043 progressbar, Value: 0.06930000334978104
+                      1044 text ISR Reads
+                      1046 image
+                      1047 text 693
+                      1048 text /
+                      1049 text  
+                      1050 text 1M
+                      1051 text 10M
+                  1052 list item
+                    1053 link 0.0661111 CDN Request CPU Duration 2s/ 1h
+                      1054 progressbar, Value: 0.06611111015081406
+                      1055 text CDN Request CPU Duration
+                      1057 image
+                      1058 text 2s
+                      1059 text /
+                      1060 text  
+                      1061 text 1h
+                  1062 list item
+                    1063 link 0.0486667 Image Optimization - Cache Reads 146/ 300K 600K
+                      1064 progressbar, Value: 0.04866666719317436
+                      1065 text Image Optimization - Cache Reads
+                      1067 image
+                      1068 text 146
+                      1069 text /
+                      1070 text  
+                      1071 text 300K
+                      1072 text 600K
+                  1073 list item
+                    1074 link 0.0337044 Fast Origin Transfer 3.37 MB/ 10 GB 100 GB
+                      1075 progressbar, Value: 0.033704351633787155
+                      1076 text Fast Origin Transfer
+                      1078 image
+                      1079 text 3.37 MB
+                      1080 text /
+                      1081 text  
+                      1082 text 10 GB
+                      1083 text 100 GB
+                  1084 list item
+                    1085 link 0.022 Image Optimization - Cache Writes 22/ 100K 200K
+                      1086 progressbar, Value: 0.02199999988079071
+                      1087 text Image Optimization - Cache Writes
+                      1089 image
+                      1090 text 22
+                      1091 text /
+                      1092 text  
+                      1093 text 100K
+                      1094 text 200K
+                  1095 list item
+                    1096 link 0.0074 Function Invocations 74/ 1M
+                      1097 progressbar, Value: 0.007400000002235174
+                      1098 text Function Invocations
+                      1100 image
+                      1101 text 74
+                      1102 text /
+                      1103 text  
+                      1104 text 1M
+              1105 button Show More Usage, Secondary actions: Expand
+                1106 image
+            1107 generic
+              1108 link Alerts
+              1111 generic
+                1113 text Get notified when usage or errors spike across your projects.
+                1114 button Upgrade to Pro
+            1116 text Recent Previews
+            1117 list
+              1118 list item
+                1119 generic
+                  1121 image github/lonely-worm
+                    1122 generic
+                    1123 generic
+                    1124 image github/lonely-worm, Description: github/lonely-worm
+                  1125 image
+                  1126 generic, Description: UI/responsive refresh / fix(frontend): import Next.js Image in history dashboard Co-authored-by: Manus <dev-agent@manus.ai>
+                    1127 text UI/responsive refresh
+                    1128 text fix(frontend): import Next.js Image in history dashboard Co-authored-by: Manus <dev-agent@manus.ai>
+                  1129 link Preview
+                    1130 image
+                  1132 link View Pull Request
+                    1133 text #8
+                  1134 link View Latest Deployment
+                  1135 button Preview Menu, Secondary actions: Expand
+                    1136 image
+                  1137 link
+              1138 list item
+                1139 generic
+                  1141 image github/lonely-worm
+                    1142 generic
+                    1143 generic
+                    1144 image github/lonely-worm, Description: github/lonely-worm
+                  1145 image
+                  1146 generic, Description: Add refreshed ConduitGuard logo across the website / Use uploaded ConduitGuard CG logo across the app
+                    1147 text Add refreshed ConduitGuard logo across the website
+                    1148 text Use uploaded ConduitGuard CG logo across the app
+                  1149 link Preview
+                    1150 image
+                  1152 link View Pull Request
+                    1153 text #7
+                  1154 link View Latest Deployment
+                  1155 button Preview Menu, Secondary actions: Expand
+                    1156 image
+                  1157 link
+              1158 list item
+                1159 generic
+                  1161 image github/lonely-worm
+                    1162 generic
+                    1163 generic
+                    1164 image github/lonely-worm, Description: github/lonely-worm
+                  1165 image
+                  1166 generic, Description: Add hamburger navigation on all device layouts / Fix duplicate hamburger state declaration
+                    1167 text Add hamburger navigation on all device layouts
+                    1168 text Fix duplicate hamburger state declaration
+                  1169 link Preview
+                    1170 image
+                  1172 link View Pull Request
+                    1173 text #6
+                  1174 link View Latest Deployment
+                  1175 button Preview Menu, Secondary actions: Expand
+                    1176 image
+                  1177 link
+              1178 list item
+                1179 generic
+                  1181 image github/lonely-worm
+                    1182 generic
+                    1183 generic
+                    1184 image github/lonely-worm, Description: github/lonely-worm
+                  1185 image
+                  1187 text Unify desktop and mobile visual design
+                  1188 link Preview
+                    1189 image
+                  1191 link View Pull Request
+                    1192 text #5
+                  1193 link View Latest Deployment
+                  1194 button Preview Menu, Secondary actions: Expand
+                    1195 image
+                  1196 link
+              1197 list item
+                1198 generic
+                  1200 image github/lonely-worm
+                    1201 generic
+                    1202 generic
+                    1203 image github/lonely-worm, Description: github/lonely-worm
+                  1204 image
+                  1205 generic, Description: Polish desktop workspace layout / Polish desktop workspace layout and spacing
+                    1206 text Polish desktop workspace layout
+                    1207 text Polish desktop workspace layout and spacing
+                  1208 link Preview
+                    1209 image
+                  1211 link View Pull Request
+                    1212 text #4
+                  1213 link View Latest Deployment
+                  1214 button Preview Menu, Secondary actions: Expand
+                    1215 image
+                  1216 link
+              1217 list item
+                1218 generic
+                  1220 image github/lonely-worm
+                    1221 generic
+                    1222 generic
+                    1223 image github/lonely-worm, Description: github/lonely-worm
+                  1224 image
+                  1225 generic, Description: Fix mobile hamburger navigation and restore profile access / Add mobile hamburger drawer and visible profile shortcut
+                    1226 text Fix mobile hamburger navigation and restore profile access
+                    1227 text Add mobile hamburger drawer and visible profile shortcut
+                  1228 link Preview
+                    1229 image
+                  1231 link View Pull Request
+                    1232 text #3
+                  1233 link View Latest Deployment
+                  1234 button Preview Menu, Secondary actions: Expand
+                    1235 image
+                  1236 link
+              1237 list item
+                1238 generic
+                  1240 image github/lonely-worm
+                    1241 generic
+                    1242 generic
+                    1243 image github/lonely-worm, Description: github/lonely-worm
+                  1244 image
+                  1245 generic, Description: Improve responsive layout across all devices / Improve responsive layout across phone tablet and desktop
+                    1246 text Improve responsive layout across all devices
+                    1247 text Improve responsive layout across phone tablet and desktop
+                  1248 link Preview
+                    1249 image
+                  1251 link View Pull Request
+                    1252 text #2
+                  1253 link View Latest Deployment
+                  1254 button Preview Menu, Secondary actions: Expand
+                    1255 image
+                  1256 link
+          1257 text Projects
+          1258 list
+            1259 list item
+              1260 link
+              1261 button Project Menu, Secondary actions: Expand
+                1263 image
+              1264 link conduitguard
+              1266 link conduitguard.vercel.app
+              1268 link 40
+                1270 progressbar, Value: 40
+              1271 button Select widget, Secondary actions: Expand
+                1272 image
+              1273 link Fix FastAPI Cloud entrypoint
+                1274 image
+              1276 link github   lonely-worm/conduitguard
+                1277 image github
+                1278 text  
+                1279 text lonely-worm/conduitguard
+              1280 text  · 
+              1281 element Nov 13
+            1283 list item
+              1284 link
+              1285 button Project Menu, Secondary actions: Expand
+                1287 image
+              1288 link connected-registration-page
+              1290 link cloning-tiktok-hanif.vercel.app
+              1292 link 20
+                1294 progressbar, Value: 20
+              1295 button Select widget, Secondary actions: Expand
+                1296 image
+              1297 link feat: replace email verification with success screen, add sound to videos, and add music tracks
+                1298 image
+              1300 link github   lonely-worm/connected-registration-page
+                1301 image github
+                1302 text  
+                1303 text lonely-worm/connected-registration-page
+              1304 text  · 
+              1305 element Oct 30
+            1307 list item
+              1308 link
+              1309 button Project Menu, Secondary actions: Expand
+                1311 image
+              1312 link azmy-linkhub
+              1314 link azmy-linkhub.vercel.app
+              1316 link 0
+                1318 progressbar, Value: 0
+              1319 button Select widget, Secondary actions: Expand
+                1320 image
+              1321 link Connect Git Repository
+              1323 element Oct 23
+            1325 list item
+              1326 link
+              1327 button Project Menu, Secondary actions: Expand
+                1329 image
+              1330 link neon-register
+              1332 link neon-register.vercel.app
+              1334 link 20
+                1336 progressbar, Value: 20
+              1337 button Select widget, Secondary actions: Expand
+                1338 image
+              1339 link fix: use sql.query() for Neon v1.2 direct DB connection
+                1340 image
+              1342 link github   lonely-worm/neon-register
+                1343 image github
+                1344 text  
+                1345 text lonely-worm/neon-register
+              1346 text  · 
+              1347 element Oct 17
+    1350 alert
+    1355 image
+            1356 generic
+{"capture":{"captureId":"capture_4406fb91-263c-48fd-ae3b-afcfd6a17ba6","coordinateSpace":"css-pixel","height":756,"mimeType":"image/png","mode":"viewport","width":1265}}

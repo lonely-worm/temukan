@@ -10,6 +10,7 @@ type ItemRow = {
   status: Item['status'];
   description: string;
   category_id: string | null;
+  photo_path: string | null;
 };
 
 function toItem(row: ItemRow, kind: ItemKind, categoryName?: string): Item {
@@ -25,14 +26,15 @@ function toItem(row: ItemRow, kind: ItemKind, categoryName?: string): Item {
     reporter: 'Komunitas',
     initials: 'KM',
     color: kind === 'lost' ? '#e9a23b' : '#69a9a4',
+    photoUrl: row.photo_path,
   };
 }
 
 export async function GET(request: NextRequest) {
   const supabase = await createClient();
   const [lost, found] = await Promise.all([
-    supabase.from('lost_items').select('id,title,location,occurred_on,status,description,category_id').order('occurred_on', { ascending: false }),
-    supabase.from('found_items').select('id,title,location,occurred_on,status,description,category_id').order('occurred_on', { ascending: false }),
+    supabase.from('lost_items').select('id,title,location,occurred_on,status,description,category_id,photo_path').order('occurred_on', { ascending: false }),
+    supabase.from('found_items').select('id,title,location,occurred_on,status,description,category_id,photo_path').order('occurred_on', { ascending: false }),
   ]);
 
   if (lost.error || found.error) {
@@ -105,7 +107,7 @@ export async function POST(request: Request) {
     location,
     occurred_on: date,
     description,
-  }).select('id,title,location,occurred_on,status,description,category_id').single();
+  }).select('id,title,location,occurred_on,status,description,category_id,photo_path').single();
 
   if (error || !data) {
     console.error('Supabase item insert failed:', error?.message);
