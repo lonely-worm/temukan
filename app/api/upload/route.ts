@@ -20,8 +20,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Hanya file gambar yang diperbolehkan.' }, { status: 400 });
   }
 
-  if (file.size > 5 * 1024 * 1024) {
-    return NextResponse.json({ error: 'Ukuran file maksimal 5MB.' }, { status: 400 });
+  if (file.size > 1024 * 1024) {
+    return NextResponse.json({ error: 'Ukuran file maksimal 1MB.' }, { status: 400 });
   }
 
   const table = kind === 'lost' ? 'lost_items' : 'found_items';
