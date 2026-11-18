@@ -58,7 +58,7 @@ export async function GET() {
     id: claim.id,
     itemId: claim.item_id,
     itemTitle: titles.get(claim.item_id) || 'Barang tidak tersedia',
-    claimant: isAdmin ? (claimantNames.get(claim.claimant_id) || 'Pengguna') : 'Anda',
+    claimant: claim.claimant_id === authData.user.id ? 'Anda' : (isAdmin ? (claimantNames.get(claim.claimant_id) || 'Pengguna') : 'Pengguna'),
     status: claim.status,
     createdAt: displayTime(claim.created_at),
     ...(claim.otp_verified_at ? { otpVerifiedAt: claim.otp_verified_at } : {}),
