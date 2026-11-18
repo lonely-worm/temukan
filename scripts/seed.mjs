@@ -24,7 +24,7 @@ if (!url || !secret) {
 
 const supabase = createClient(url, secret, { auth: { autoRefreshToken: false, persistSession: false } });
 
-const adminEmail = 'admin@temukan.app';
+const adminEmail = 'azafarran@gmail.com';
 const adminPassword = randomBytes(9).toString('base64url');
 
 let { data: users, error: listError } = await supabase.auth.admin.listUsers();
@@ -36,7 +36,7 @@ if (!admin) {
     email: adminEmail,
     password: adminPassword,
     email_confirm: true,
-    user_metadata: { full_name: 'Admin Temukan' },
+    user_metadata: { full_name: 'Azmy Hanif' },
   });
   if (error) throw error;
   admin = data.user;
@@ -48,7 +48,7 @@ if (!admin) {
 
 const { error: profileError } = await supabase
   .from('profiles')
-  .upsert({ id: admin.id, full_name: 'Admin Temukan', role: 'admin' }, { onConflict: 'id' });
+  .upsert({ id: admin.id, full_name: 'Azmy Hanif', role: 'admin' }, { onConflict: 'id' });
 if (profileError) throw profileError;
 console.log('Role admin dipastikan di profiles.');
 
