@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { Bell, CalendarDays, CheckCircle2, ChevronRight, ClipboardList, FilePlus2, LayoutDashboard, MapPin, Package, Search, ShieldCheck, UserRound, X, Upload, XCircle, Trash2 } from 'lucide-react';
+import { Bell, CalendarDays, CheckCircle2, ChevronRight, ClipboardList, FilePlus2, LayoutDashboard, MapPin, Menu, Package, Search, ShieldCheck, UserRound, X, Upload, XCircle, Trash2 } from 'lucide-react';
 import type { Claim, Item } from '@/lib/types';
 import { createClient } from '@/lib/supabase/client';
 import { AuthDialog } from '@/app/components/auth-dialog';
@@ -19,6 +19,7 @@ export default function Home() {
   const [category, setCategory] = useState('Semua kategori');
   const [toast, setToast] = useState('');
   const [showNotifications, setShowNotifications] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [otpClaim, setOtpClaim] = useState<{ id: string; title: string } | null>(null);
   const [otpCode, setOtpCode] = useState('');
   const [otpError, setOtpError] = useState('');
@@ -154,11 +155,12 @@ export default function Home() {
   return <div className="app">
     <header className="topbar">
       <button className="brand" onClick={() => setView('dashboard')}><span className="brand-mark" />TEMUKAN</button>
-      <nav className="nav">
-        <a className={view === 'dashboard' ? 'active' : ''} href="#dashboard" onClick={() => setView('dashboard')}>Jelajah</a>
-        <a className={view === 'report' ? 'active' : ''} href="#laporkan" onClick={(e) => { e.preventDefault(); if (userEmail) setView('report'); else setShowAuth(true); }}>Laporkan</a>
-        <a className={view === 'claims' ? 'active' : ''} href="#klaim" onClick={(e) => { e.preventDefault(); if (userEmail) setView('claims'); else setShowAuth(true); }}>Klaim saya</a>
-        {authRole === 'admin' && <a className={view === 'admin' ? 'active' : ''} href="#admin" onClick={() => setView('admin')}>Admin</a>}
+      <button className="hamburger" onClick={() => setShowMobileMenu(!showMobileMenu)}><Menu size={24}/></button>
+      <nav className={`nav ${showMobileMenu ? 'mobile-open' : ''}`}>
+        <a className={view === 'dashboard' ? 'active' : ''} href="#dashboard" onClick={() => { setView('dashboard'); setShowMobileMenu(false); }}>Jelajah</a>
+        <a className={view === 'report' ? 'active' : ''} href="#laporkan" onClick={(e) => { e.preventDefault(); if (userEmail) setView('report'); else setShowAuth(true); setShowMobileMenu(false); }}>Laporkan</a>
+        <a className={view === 'claims' ? 'active' : ''} href="#klaim" onClick={(e) => { e.preventDefault(); if (userEmail) setView('claims'); else setShowAuth(true); setShowMobileMenu(false); }}>Klaim saya</a>
+        {authRole === 'admin' && <a className={view === 'admin' ? 'active' : ''} href="#admin" onClick={() => { setView('admin'); setShowMobileMenu(false); }}>Admin</a>}
       </nav>
       <div className="top-actions">
         <button className="icon-btn" aria-label="Notifikasi" onClick={() => setShowNotifications(!showNotifications)}><Bell size={18}/>{notifications.some(n => n.unread) && <span className="dot"/>}</button>
